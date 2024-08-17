@@ -1,0 +1,7 @@
+cd /home/bob/Desktop/gpt-bak
+git init
+git checkout -b main
+git remote add origin git@github.com:securityIstudent/bak.git
+git add .
+git commit -m "Initial upload"
+git push -u origin main
