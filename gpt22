@@ -1,0 +1,20 @@
+sgpt ja --chat lubieplacki "ile to 123?"
+
+ls -la /home/bob/.cache/sgpt/
+
+W cache sa historie.
+
+ls -la /home/bob/.config/sgpt/
+
+w config config i personas
+
+sgpt sh -e "daj mi komende zeby plik znales na linux, i zeby dozwolone bylo cokolwiek przed i po, moze byc tez ukryty, szukamy pliku lubieplacki"
+find / -name "*lubieplacki*" 2>/dev/null
+Do you want to execute this command? (Y/n) Y
+/home/bob/.cache/sgpt/lubieplacki
+
+
+sgpt -m gpt-4o -i '/home/bob/Desktop/Zrzut ekranu z 2024-08-17 22-26-16.png' "dlaczego mi to nie dziala"
+2024/08/17 22:46:58 WARN The GPT-4 Vision API is in beta and may not work as expected
+Wydaje się, że próbujesz korzystać z poleceń związanych z zarządzaniem sesjami czatu z wykorzystaniem narzędzia "sgpt". Oto kilka powodów, dla których polecenia mogą nie działać:
+...snip...
