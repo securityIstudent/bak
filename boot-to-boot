@@ -1,0 +1,16 @@
+
+Bot1
+ej --chat boty2 "pogadajmy o offsec" > odpowiedz.txt
+ej--chat boty2 "pytanie=$(cat odpowiedz2.txt)" > odpowiedz.txt
+
+Bot2
+ej --chat boty2 "pytanie=$(cat odpowiedz.txt)" > odpowiedz2.txt
+
+
+
+
+sgpt as1 --chat boty "pytanie=$(cat odpowiedz2.txt)" > odpowiedz.txt
+
+sgpt as2 --chat boty "pytanie=$(cat odpowiedz.txt)" > odpowiedz2.txt
+
+je 
