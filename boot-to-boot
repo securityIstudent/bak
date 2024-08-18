@@ -1,3 +1,9 @@
+sgpt as1 --chat 001 "$ask1" > odpowiedz.txt
+sgpt as2 --chat 002 "$odp1" > pytanie.txt
+
+#export ask1=$(cat pytanie.txt)
+#export odp1=$(cat odpowiedź.txt)
+
 
 Bot1
 ej --chat boty2 "pogadajmy o offsec" > odpowiedz.txt
